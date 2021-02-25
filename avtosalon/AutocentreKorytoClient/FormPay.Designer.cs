@@ -40,9 +40,9 @@ namespace AutocentreKorytoClient
             // comboBoxJewelry
             // 
             this.comboBoxJewelry.FormattingEnabled = true;
-            this.comboBoxJewelry.Location = new System.Drawing.Point(78, 52);
+            this.comboBoxJewelry.Location = new System.Drawing.Point(48, 52);
             this.comboBoxJewelry.Name = "comboBoxJewelry";
-            this.comboBoxJewelry.Size = new System.Drawing.Size(325, 21);
+            this.comboBoxJewelry.Size = new System.Drawing.Size(396, 21);
             this.comboBoxJewelry.TabIndex = 4;
             this.comboBoxJewelry.Text = "Выбранная покупка";
             this.comboBoxJewelry.SelectedIndexChanged += new System.EventHandler(this.comboBoxJewelry_SelectedIndexChanged);
@@ -56,7 +56,7 @@ namespace AutocentreKorytoClient
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(45, 86);
+            this.label2.Location = new System.Drawing.Point(45, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 22);
             this.label2.TabIndex = 7;
