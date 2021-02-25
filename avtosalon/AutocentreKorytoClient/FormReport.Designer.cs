@@ -61,7 +61,7 @@ namespace AutocentreKorytoClient
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 28);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Комплектация";
+            this.label2.Text = "Конец";
             // 
             // label1
             // 
@@ -69,7 +69,7 @@ namespace AutocentreKorytoClient
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 28);
             this.label1.TabIndex = 25;
-            this.label1.Text = "Название автомобиля";
+            this.label1.Text = "Начало";
             // 
             // dateTimePicker1
             // 
