@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avtosalon", "avtosalon\avtosalon.csproj", "{D4B279CE-D664-44E7-BCD7-6DBDB7F99C64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutocentreKorytoClientView", "AutocentreKorytoClient\AutocentreKorytoClientView.csproj", "{DF1EAB48-DB87-4018-A417-98406765B0DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4B279CE-D664-44E7-BCD7-6DBDB7F99C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4B279CE-D664-44E7-BCD7-6DBDB7F99C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4B279CE-D664-44E7-BCD7-6DBDB7F99C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4B279CE-D664-44E7-BCD7-6DBDB7F99C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1EAB48-DB87-4018-A417-98406765B0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1EAB48-DB87-4018-A417-98406765B0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1EAB48-DB87-4018-A417-98406765B0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1EAB48-DB87-4018-A417-98406765B0DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A0106479-4C1C-4312-9B8E-5954D3DDBFE7}
+		SolutionGuid = {9BA53D3D-FF26-4E20-B325-23E05A7CE42D}
 	EndGlobalSection
 EndGlobal

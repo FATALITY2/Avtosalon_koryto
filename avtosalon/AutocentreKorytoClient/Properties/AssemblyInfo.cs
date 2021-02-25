@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("avtosalon")]
+[assembly: AssemblyTitle("AutocentreKorytoClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("avtosalon")]
+[assembly: AssemblyProduct("AutocentreKorytoClient")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("d4b279ce-d664-44e7-bcd7-6dbdb7f99c64")]
+[assembly: Guid("df1eab48-db87-4018-a417-98406765b0db")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
