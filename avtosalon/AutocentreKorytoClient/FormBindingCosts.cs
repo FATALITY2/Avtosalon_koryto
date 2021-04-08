@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AutocentreKorytoClient
 {
-    public partial class FormPay : Form
+    public partial class FormBindingCosts : Form
     {
-        public FormPay()
+        public FormBindingCosts()
         {
             InitializeComponent();
-        }
-
-        private void comboBoxJewelry_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

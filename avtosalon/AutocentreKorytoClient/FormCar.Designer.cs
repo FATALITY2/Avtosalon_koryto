@@ -30,12 +30,12 @@ namespace AutocentreKorytoClient
         private void InitializeComponent()
         {
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.textBoxLogin = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.labelLogin = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -46,24 +46,6 @@ namespace AutocentreKorytoClient
             this.button2.TabIndex = 23;
             this.button2.Text = "Отмена";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(126, 70);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 37);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "Word";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(249, 70);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(117, 37);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Excel";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // textBoxPassword
             // 
@@ -97,6 +79,24 @@ namespace AutocentreKorytoClient
             this.labelLogin.TabIndex = 24;
             this.labelLogin.Text = "Марка";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(249, 70);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(117, 37);
+            this.button4.TabIndex = 22;
+            this.button4.Text = "Excel";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(126, 70);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(117, 37);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "Word";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // FormCar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -119,11 +119,11 @@ namespace AutocentreKorytoClient
         #endregion
 
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.Label labelLogin;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }

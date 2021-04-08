@@ -52,11 +52,29 @@
     <Compile Include="FormAddCar.Designer.cs">
       <DependentUpon>FormAddCar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBindingCosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBindingCosts.Designer.cs">
+      <DependentUpon>FormBindingCosts.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCar.Designer.cs">
       <DependentUpon>FormCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCost.Designer.cs">
+      <DependentUpon>FormCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCosts.Designer.cs">
+      <DependentUpon>FormCosts.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCreate.cs">
       <SubType>Form</SubType>
@@ -82,11 +100,11 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPay.cs">
+    <Compile Include="FormPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPay.Designer.cs">
-      <DependentUpon>FormPay.cs</DependentUpon>
+    <Compile Include="FormPayment.Designer.cs">
+      <DependentUpon>FormPayment.cs</DependentUpon>
     </Compile>
     <Compile Include="FormRegistration.cs">
       <SubType>Form</SubType>
@@ -108,6 +126,12 @@
     <EmbeddedResource Include="FormCar.resx">
       <DependentUpon>FormCar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCost.resx">
+      <DependentUpon>FormCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCosts.resx">
+      <DependentUpon>FormCosts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCreate.resx">
       <DependentUpon>FormCreate.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,8 +144,8 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPay.resx">
-      <DependentUpon>FormPay.cs</DependentUpon>
+    <EmbeddedResource Include="FormPayment.resx">
+      <DependentUpon>FormPayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistration.resx">
       <DependentUpon>FormRegistration.cs</DependentUpon>

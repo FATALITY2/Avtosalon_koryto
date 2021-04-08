@@ -99,7 +99,7 @@ namespace AutocentreKorytoClient
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelLogin);
             this.Name = "FormRegistration";
-            this.Text = "FormRegistration";
+            this.Text = "Регистрация";
             this.ResumeLayout(false);
             this.PerformLayout();
 
