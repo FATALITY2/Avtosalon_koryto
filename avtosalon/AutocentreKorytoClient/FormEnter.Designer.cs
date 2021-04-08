@@ -1,7 +1,7 @@
 ﻿
 namespace AutocentreKorytoView
 {
-    partial class FormAuthorize
+    partial class FormEnter
     {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +39,7 @@ namespace AutocentreKorytoView
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(22, 156);
+            this.buttonCancel.Location = new System.Drawing.Point(22, 144);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(162, 29);
             this.buttonCancel.TabIndex = 14;
@@ -81,7 +81,7 @@ namespace AutocentreKorytoView
             // 
             // buttonEnter
             // 
-            this.buttonEnter.Location = new System.Drawing.Point(22, 114);
+            this.buttonEnter.Location = new System.Drawing.Point(22, 97);
             this.buttonEnter.Name = "buttonEnter";
             this.buttonEnter.Size = new System.Drawing.Size(162, 29);
             this.buttonEnter.TabIndex = 9;

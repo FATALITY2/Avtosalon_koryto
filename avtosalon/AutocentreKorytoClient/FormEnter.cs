@@ -7,14 +7,14 @@ using Unity;
 
 namespace AutocentreKorytoView
 {
-    public partial class FormAuthorize : Form
+    public partial class FormEnter : Form
     {
         [Dependency]
         public new IUnityContainer Container { get; set; }
 
         private readonly UserLogic logic;
 
-        public FormAuthorize(UserLogic logic)
+        public FormEnter(UserLogic logic)
         {
             InitializeComponent();
             this.logic = logic;
