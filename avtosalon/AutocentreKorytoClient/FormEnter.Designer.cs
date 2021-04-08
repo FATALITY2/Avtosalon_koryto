@@ -1,7 +1,7 @@
 ﻿
-namespace AutocentreKorytoClientView
+namespace AutocentreKorytoView
 {
-    partial class FormEnter
+    partial class FormAuthorize
     {
         /// <summary>
         /// Required designer variable.
@@ -29,76 +29,78 @@ namespace AutocentreKorytoClientView
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelLogin = new System.Windows.Forms.Label();
+            this.buttonCancel = new System.Windows.Forms.Button();
             this.labelPassword = new System.Windows.Forms.Label();
-            this.textBoxLogin = new System.Windows.Forms.TextBox();
+            this.labelEmail = new System.Windows.Forms.Label();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.buttonEnter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelLogin
+            // buttonCancel
             // 
-            this.labelLogin.AutoSize = true;
-            this.labelLogin.Location = new System.Drawing.Point(21, 9);
-            this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(38, 13);
-            this.labelLogin.TabIndex = 3;
-            this.labelLogin.Text = "Логин";
+            this.buttonCancel.Location = new System.Drawing.Point(22, 156);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(162, 29);
+            this.buttonCancel.TabIndex = 14;
+            this.buttonCancel.Text = "Отмена";
+            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(21, 38);
+            this.labelPassword.Location = new System.Drawing.Point(21, 55);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(45, 13);
-            this.labelPassword.TabIndex = 4;
-            this.labelPassword.Text = "Пароль";
+            this.labelPassword.Size = new System.Drawing.Size(48, 13);
+            this.labelPassword.TabIndex = 13;
+            this.labelPassword.Text = "Пароль:";
             // 
-            // textBoxLogin
+            // labelEmail
             // 
-            this.textBoxLogin.Location = new System.Drawing.Point(84, 6);
-            this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(267, 20);
-            this.textBoxLogin.TabIndex = 5;
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Location = new System.Drawing.Point(21, 9);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(35, 13);
+            this.labelEmail.TabIndex = 12;
+            this.labelEmail.Text = "Email:";
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(84, 38);
+            this.textBoxPassword.Location = new System.Drawing.Point(22, 71);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(267, 20);
-            this.textBoxPassword.TabIndex = 6;
+            this.textBoxPassword.Size = new System.Drawing.Size(162, 20);
+            this.textBoxPassword.TabIndex = 11;
             // 
-            // button1
+            // textBoxEmail
             // 
-            this.button1.Location = new System.Drawing.Point(169, 64);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 30);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Войти";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBoxEmail.Location = new System.Drawing.Point(22, 31);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(162, 20);
+            this.textBoxEmail.TabIndex = 10;
             // 
-            // button2
+            // buttonEnter
             // 
-            this.button2.Location = new System.Drawing.Point(268, 64);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 30);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Отмена";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonEnter.Location = new System.Drawing.Point(22, 114);
+            this.buttonEnter.Name = "buttonEnter";
+            this.buttonEnter.Size = new System.Drawing.Size(162, 29);
+            this.buttonEnter.TabIndex = 9;
+            this.buttonEnter.Text = "Войти";
+            this.buttonEnter.UseVisualStyleBackColor = true;
+            this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
             // 
-            // FormEnter
+            // FormAuthorize
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 106);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxLogin);
+            this.ClientSize = new System.Drawing.Size(213, 201);
+            this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.labelPassword);
-            this.Controls.Add(this.labelLogin);
-            this.Name = "FormEnter";
+            this.Controls.Add(this.labelEmail);
+            this.Controls.Add(this.textBoxPassword);
+            this.Controls.Add(this.textBoxEmail);
+            this.Controls.Add(this.buttonEnter);
+            this.Name = "FormAuthorize";
             this.Text = "Авторизация";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -107,11 +109,11 @@ namespace AutocentreKorytoClientView
 
         #endregion
 
-        private System.Windows.Forms.Label labelLogin;
+        private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Label labelPassword;
-        private System.Windows.Forms.TextBox textBoxLogin;
+        private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.Button buttonEnter;
     }
 }

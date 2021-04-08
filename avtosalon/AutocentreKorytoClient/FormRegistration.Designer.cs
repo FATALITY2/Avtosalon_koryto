@@ -1,5 +1,5 @@
 ﻿
-namespace AutocentreKorytoClient
+namespace AutocentreKorytoView
 {
     partial class FormRegistration
     {
@@ -29,77 +29,100 @@ namespace AutocentreKorytoClient
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelLogin = new System.Windows.Forms.Label();
-            this.labelPassword = new System.Windows.Forms.Label();
-            this.textBoxLogin = new System.Windows.Forms.TextBox();
+            this.labelRole = new System.Windows.Forms.Label();
+            this.comboBoxRole = new System.Windows.Forms.ComboBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.labelPassword = new System.Windows.Forms.Label();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.labelEmail = new System.Windows.Forms.Label();
+            this.buttonEnter = new System.Windows.Forms.Button();
+            this.buttonRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelLogin
+            // labelRole
             // 
-            this.labelLogin.AutoSize = true;
-            this.labelLogin.Location = new System.Drawing.Point(12, 18);
-            this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(38, 13);
-            this.labelLogin.TabIndex = 4;
-            this.labelLogin.Text = "Логин";
+            this.labelRole.AutoSize = true;
+            this.labelRole.Location = new System.Drawing.Point(23, 127);
+            this.labelRole.Name = "labelRole";
+            this.labelRole.Size = new System.Drawing.Size(35, 13);
+            this.labelRole.TabIndex = 20;
+            this.labelRole.Text = "Роль:";
+            // 
+            // comboBoxRole
+            // 
+            this.comboBoxRole.FormattingEnabled = true;
+            this.comboBoxRole.Location = new System.Drawing.Point(26, 143);
+            this.comboBoxRole.Name = "comboBoxRole";
+            this.comboBoxRole.Size = new System.Drawing.Size(161, 21);
+            this.comboBoxRole.TabIndex = 19;
+            // 
+            // textBoxPassword
+            // 
+            this.textBoxPassword.Location = new System.Drawing.Point(25, 91);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(162, 20);
+            this.textBoxPassword.TabIndex = 18;
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(12, 43);
+            this.labelPassword.Location = new System.Drawing.Point(23, 66);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(45, 13);
-            this.labelPassword.TabIndex = 5;
-            this.labelPassword.Text = "Пароль";
+            this.labelPassword.Size = new System.Drawing.Size(48, 13);
+            this.labelPassword.TabIndex = 17;
+            this.labelPassword.Text = "Пароль:";
             // 
-            // textBoxLogin
+            // textBoxEmail
             // 
-            this.textBoxLogin.Location = new System.Drawing.Point(81, 18);
-            this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(267, 20);
-            this.textBoxLogin.TabIndex = 6;
+            this.textBoxEmail.Location = new System.Drawing.Point(25, 32);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(162, 20);
+            this.textBoxEmail.TabIndex = 16;
             // 
-            // textBoxPassword
+            // labelEmail
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(81, 44);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(267, 20);
-            this.textBoxPassword.TabIndex = 7;
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Location = new System.Drawing.Point(22, 16);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(35, 13);
+            this.labelEmail.TabIndex = 15;
+            this.labelEmail.Text = "Email:";
             // 
-            // button1
+            // buttonEnter
             // 
-            this.button1.Location = new System.Drawing.Point(170, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 30);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Cоздать";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonEnter.Location = new System.Drawing.Point(25, 226);
+            this.buttonEnter.Name = "buttonEnter";
+            this.buttonEnter.Size = new System.Drawing.Size(162, 42);
+            this.buttonEnter.TabIndex = 14;
+            this.buttonEnter.Text = "Уже зарегистрирован, войти";
+            this.buttonEnter.UseVisualStyleBackColor = true;
+            this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
             // 
-            // button2
+            // buttonRegister
             // 
-            this.button2.Location = new System.Drawing.Point(265, 70);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 30);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Отмена";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonRegister.Location = new System.Drawing.Point(25, 181);
+            this.buttonRegister.Name = "buttonRegister";
+            this.buttonRegister.Size = new System.Drawing.Size(162, 30);
+            this.buttonRegister.TabIndex = 13;
+            this.buttonRegister.Text = "Зарегистрироваться";
+            this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
             // FormRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 113);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(233, 273);
+            this.Controls.Add(this.labelRole);
+            this.Controls.Add(this.comboBoxRole);
             this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxLogin);
             this.Controls.Add(this.labelPassword);
-            this.Controls.Add(this.labelLogin);
+            this.Controls.Add(this.textBoxEmail);
+            this.Controls.Add(this.labelEmail);
+            this.Controls.Add(this.buttonEnter);
+            this.Controls.Add(this.buttonRegister);
             this.Name = "FormRegistration";
-            this.Text = "Регистрация";
+            this.Text = "FormRegistration";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,11 +130,13 @@ namespace AutocentreKorytoClient
 
         #endregion
 
-        private System.Windows.Forms.Label labelLogin;
-        private System.Windows.Forms.Label labelPassword;
-        private System.Windows.Forms.TextBox textBoxLogin;
+        private System.Windows.Forms.Label labelRole;
+        private System.Windows.Forms.ComboBox comboBoxRole;
         private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label labelPassword;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.Label labelEmail;
+        private System.Windows.Forms.Button buttonEnter;
+        private System.Windows.Forms.Button buttonRegister;
     }
 }

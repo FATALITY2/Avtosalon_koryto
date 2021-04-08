@@ -1,0 +1,4 @@
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\bin\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.dll
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.csprojAssemblyReference.cache
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.AssemblyInfoInputs.cache
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.AssemblyInfo.cs

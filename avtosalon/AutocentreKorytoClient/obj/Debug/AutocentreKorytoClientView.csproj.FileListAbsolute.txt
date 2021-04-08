@@ -8,3 +8,19 @@ C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient
 C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.CRUDAvto.resources
 C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormPay.resources
 C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormRegistration.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.csprojAssemblyReference.cache
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormAddCar.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormCar.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoView.FormCost.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoView.FormCosts.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormCreate.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormCreatePurchase.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.FormEnter.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormMain.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormPayment.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormRegistration.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormReport.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormReportCar.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.Properties.Resources.resources
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.csproj.GenerateResource.cache
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.csproj.CoreCompileInputs.cache

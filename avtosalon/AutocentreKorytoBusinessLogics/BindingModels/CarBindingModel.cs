@@ -17,13 +17,13 @@ namespace AutocentreKorytoBusinessLogics.BindingModels
         public int? CostsId { get; set; }
 
         [DataMember]
-        public string FurnitureName { get; set; }
+        public string CarName { get; set; }
 
         [DataMember]
         public string Material { get; set; }
 
         [DataMember]
-        public decimal FurniturePrice { get; set; }
+        public decimal CarPrice { get; set; }
 
         [DataMember]
         public DateTime DateOfCreation { get; set; }

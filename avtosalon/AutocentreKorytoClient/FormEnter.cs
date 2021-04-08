@@ -1,59 +1,57 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutocentreKorytoBusinessLogics.BindingModels;
+using AutocentreKorytoBusinessLogics.BusinessLogics;
+using AutocentreKorytoBusinessLogics.Enums;
+using Unity;
 
-namespace AutocentreKorytoClientView
+namespace AutocentreKorytoView
 {
-    public partial class FormEnter : Form
+    public partial class FormAuthorize : Form
     {
-        string password = "12345Vova!";
-        string login = "mamykinvladimir00@gmail.com";
-        public FormEnter()
+        [Dependency]
+        public new IUnityContainer Container { get; set; }
+
+        private readonly UserLogic logic;
+
+        public FormAuthorize(UserLogic logic)
         {
             InitializeComponent();
-            textBoxPassword.PasswordChar = '*';
+            this.logic = logic;
         }
 
         private void buttonEnter_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(textBoxLogin.Text) &&
-           !string.IsNullOrEmpty(textBoxPassword.Text))
+            if (string.IsNullOrEmpty(textBoxEmail.Text))
             {
-                try
-                {
-                    if (textBoxLogin.Text == login && textBoxPassword.Text == password)
-                    {
-                        Program.Cheak = true;
-                        Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Неверный логин или пароль", "Ошибка", MessageBoxButtons.OK,
-                       MessageBoxIcon.Error);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK,
-                   MessageBoxIcon.Error);
-                }
+                MessageBox.Show("Заполните Email", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
+            if (string.IsNullOrEmpty(textBoxPassword.Text))
             {
-                MessageBox.Show("Введите логин и пароль", "Ошибка", MessageBoxButtons.OK,
-               MessageBoxIcon.Error);
+                MessageBox.Show("Заполните пароль", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
+
+            var user = logic.Read(new UserBindingModel { Email = textBoxEmail.Text, Password = textBoxPassword.Text })?[0];
+            if (user == null)
+            {
+                MessageBox.Show("Неверный Email или пароль", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            Program.User = user;
+
+            DialogResult = DialogResult.OK;
+            Hide();
+            var form = Container.Resolve<FormMain>();
+            form.ShowDialog();
+            Close();
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void buttonCancel_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult = DialogResult.Cancel;
+            Close();
         }
     }
 }

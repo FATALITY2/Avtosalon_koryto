@@ -46,6 +46,7 @@ namespace AutocentreKorytoView
             this.buttonBinding.TabIndex = 13;
             this.buttonBinding.Text = "Привязать";
             this.buttonBinding.UseVisualStyleBackColor = true;
+            this.buttonBinding.Click += new System.EventHandler(this.buttonBinding_Click);
             // 
             // buttonRef
             // 
@@ -55,6 +56,7 @@ namespace AutocentreKorytoView
             this.buttonRef.TabIndex = 12;
             this.buttonRef.Text = "Обновить";
             this.buttonRef.UseVisualStyleBackColor = true;
+            this.buttonRef.Click += new System.EventHandler(this.ButtonRef_Click);
             // 
             // buttonDel
             // 
@@ -64,6 +66,7 @@ namespace AutocentreKorytoView
             this.buttonDel.TabIndex = 11;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.ButtonDel_Click);
             // 
             // buttonUpd
             // 
@@ -73,6 +76,7 @@ namespace AutocentreKorytoView
             this.buttonUpd.TabIndex = 10;
             this.buttonUpd.Text = "Изменить";
             this.buttonUpd.UseVisualStyleBackColor = true;
+            this.buttonUpd.Click += new System.EventHandler(this.ButtonUpd_Click);
             // 
             // buttonAdd
             // 
@@ -82,6 +86,7 @@ namespace AutocentreKorytoView
             this.buttonAdd.TabIndex = 9;
             this.buttonAdd.Text = "Добавить";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.ButtonAdd_Click);
             // 
             // dataGridView
             // 
@@ -106,6 +111,7 @@ namespace AutocentreKorytoView
             this.Controls.Add(this.dataGridView);
             this.Name = "FormCosts";
             this.Text = "FormCosts";
+            this.Load += new System.EventHandler(this.FormCosts_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 

@@ -23,7 +23,7 @@ namespace AutocentreKorytoClient
 
         private int Id { get; set; }
 
-        private Dictionary<int, (string, int, decimal)> purchaseFurniture;
+        private Dictionary<int, (string, int, decimal)> purchaseCar;
 
         List<PurchaseViewModel> listPurchase;
 
@@ -79,7 +79,7 @@ namespace AutocentreKorytoClient
                 viewPayment = _logicPayment.Read(new PaymentBindingModel { PurchaseId = Id })?[0];
                 if (viewPurchase != null)
                 {
-                    purchaseFurniture = viewPurchase.PurchaseFurniture;
+                    purchaseCar = viewPurchase.PurchaseCar;
                 }
             }
         }
@@ -118,7 +118,7 @@ namespace AutocentreKorytoClient
                             PurchaseName = viewPurchase.PurchaseName,
                             PurchaseSum = viewPurchase.PurchaseSum,
                             DateOfCreation = viewPurchase.DateOfCreation,
-                            PurchaseFurnitures = viewPurchase.PurchaseFurniture
+                            PurchaseCars = viewPurchase.PurchaseCar
                         });
 
                         if (viewPayment != null)

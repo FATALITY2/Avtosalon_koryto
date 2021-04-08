@@ -62,6 +62,7 @@ namespace AutocentreKorytoClient
             this.buttonCancel.TabIndex = 11;
             this.buttonCancel.Text = "Отмена";
             this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // buttonSave
             // 
@@ -71,6 +72,7 @@ namespace AutocentreKorytoClient
             this.buttonSave.TabIndex = 10;
             this.buttonSave.Text = "Сохранить";
             this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // textBoxTotalSum
             // 
@@ -96,8 +98,9 @@ namespace AutocentreKorytoClient
             this.comboBoxPurchase.Size = new System.Drawing.Size(232, 21);
             this.comboBoxPurchase.TabIndex = 7;
             this.comboBoxPurchase.Text = "Выбранная покупка";
+            this.comboBoxPurchase.SelectedIndexChanged += new System.EventHandler(this.ComboBoxPurchase_SelectedIndexChanged);
             // 
-            // FormPay
+            // FormPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,8 +112,9 @@ namespace AutocentreKorytoClient
             this.Controls.Add(this.textBoxTotalSum);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBoxPurchase);
-            this.Name = "FormPay";
+            this.Name = "FormPayment";
             this.Text = "Оплата";
+            this.Load += new System.EventHandler(this.FormPayment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
