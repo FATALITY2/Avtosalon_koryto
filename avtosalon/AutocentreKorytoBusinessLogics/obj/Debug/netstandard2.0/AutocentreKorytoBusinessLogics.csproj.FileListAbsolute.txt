@@ -1,0 +1,8 @@
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.AssemblyInfoInputs.cache
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.AssemblyInfo.cs
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.csproj.CoreCompileInputs.cache
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\bin\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.deps.json
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\bin\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.dll
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\bin\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.pdb
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.dll
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.pdb
