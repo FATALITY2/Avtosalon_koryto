@@ -46,7 +46,6 @@ namespace AutocentreKorytoClientView
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::AutocentreKorytoClientView.Properties.Resources.корыто;
             this.pictureBox1.Location = new System.Drawing.Point(12, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(723, 367);
@@ -111,7 +110,6 @@ namespace AutocentreKorytoClientView
             this.покупочныйОтчетToolStripMenuItem.Name = "покупочныйОтчетToolStripMenuItem";
             this.покупочныйОтчетToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
             this.покупочныйОтчетToolStripMenuItem.Text = "Отчет по покупкам за период";
-            this.покупочныйОтчетToolStripMenuItem.Click += new System.EventHandler(this.отчетПоПокупкамToolStripMenuItem_Click_1);
             // 
             // машинныйОтчетToolStripMenuItem
             // 

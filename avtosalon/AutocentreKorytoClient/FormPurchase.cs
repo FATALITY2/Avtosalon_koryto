@@ -80,7 +80,7 @@ namespace AutocentreKorytoClientView
 
                 else
                 {
-                    purchaseCar.Add(form.Id, (form.CareName, form.Count, form.Price));
+                    purchaseCar.Add(form.Id, (form.CarName, form.Count, form.Price));
                 }
                 LoadData();
             }

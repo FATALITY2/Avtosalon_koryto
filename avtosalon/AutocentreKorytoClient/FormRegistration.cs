@@ -54,7 +54,7 @@ namespace AutocentreKorytoClientView
                 Program.User = logic.Read(model)?[0];
                 MessageBox.Show("Успешная регистрация", "Регистрация", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                var form = Container.Resolve<FormAuthorize>();
+                var form = Container.Resolve<FormEnter>();
                 form.ShowDialog();
                 Close();
             }
@@ -67,7 +67,7 @@ namespace AutocentreKorytoClientView
 
         private void buttonEnter_Click(object sender, EventArgs e)
         {
-            var form = Container.Resolve<FormAuthorize>();
+            var form = Container.Resolve<FormEnter>();
             form.ShowDialog();
         }
     }

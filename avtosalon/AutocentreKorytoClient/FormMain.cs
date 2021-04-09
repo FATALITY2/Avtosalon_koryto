@@ -72,11 +72,6 @@ namespace AutocentreKorytoClientView
             }
         }
 
-        private void отчетПоПокупкамToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void отчетПоМашинамToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (Program.User.Role == (UserRole)1)

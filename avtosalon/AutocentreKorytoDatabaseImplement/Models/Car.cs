@@ -14,7 +14,7 @@ namespace AutocentreKorytoClientDatabaseImplement.Models
         public int? CostsId { get; set; }
 
         [Required]
-        public string Carame { get; set; }
+        public string CarName { get; set; }
 
         [Required]
         public decimal CarPrice { get; set; }
