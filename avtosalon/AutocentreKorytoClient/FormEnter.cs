@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
-using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.BusinessLogics;
-using AutocentreKorytoBusinessLogics.Enums;
+using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.Enums;
 using Unity;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormEnter : Form
     {

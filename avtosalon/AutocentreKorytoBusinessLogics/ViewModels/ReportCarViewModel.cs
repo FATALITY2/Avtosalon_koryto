@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutocentreKorytoBusinessLogics.ViewModels
+namespace AutocentreKorytoClientBusinessLogics.ViewModels
 {
     public class ReportCarViewModel
     {

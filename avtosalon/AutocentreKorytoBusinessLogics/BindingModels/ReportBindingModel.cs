@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutocentreKorytoBusinessLogics.BindingModels
+namespace AutocentreKorytoClientBusinessLogics.BindingModels
 {
     public class ReportBindingModel
     {

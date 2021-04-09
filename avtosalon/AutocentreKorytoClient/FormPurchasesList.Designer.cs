@@ -1,5 +1,5 @@
 ﻿
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     partial class FormPurchasesList
     {

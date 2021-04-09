@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using AutocentreKorytoBusinessLogics.HelperModels;
+using AutocentreKorytoClientBusinessLogics.HelperModels;
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.Rendering;
 
-namespace AutocentreKorytoBusinessLogics.BusinessLogics
+namespace AutocentreKorytoClientBusinessLogics.BusinessLogics
 {
     class SaveToPdf
     {

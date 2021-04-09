@@ -1,12 +1,12 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.BusinessLogics;
-using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System;
 using System.Windows.Forms;
 using Unity;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormBindingCosts : Form
     {
@@ -102,7 +102,7 @@ namespace AutocentreKorytoView
                     UserId = carView.UserId,
                     CostsId = costView.Id,
                     CarName = carView.CarName,
-                    Material = carView.Material,
+                    Equipment = carView.Equipment,
                     CarPrice = carView.CarPrice,
                     DateOfCreation = carView.DateOfCreation
                 });

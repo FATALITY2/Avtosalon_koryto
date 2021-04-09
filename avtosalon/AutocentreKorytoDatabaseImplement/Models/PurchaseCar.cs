@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutocentreKorytoDatabaseImplement.Implements.Models
+namespace AutocentreKorytoClientDatabaseImplement.Implements.Models
 {
     class PurchaseCar
     {

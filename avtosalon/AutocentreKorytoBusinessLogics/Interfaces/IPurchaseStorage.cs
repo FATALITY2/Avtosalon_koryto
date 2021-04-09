@@ -1,8 +1,8 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System.Collections.Generic;
 
-namespace AutocentreKorytoBusinessLogics.Interfaces
+namespace AutocentreKorytoClientBusinessLogics.Interfaces
 {
     public interface IPurchaseStorage
     {

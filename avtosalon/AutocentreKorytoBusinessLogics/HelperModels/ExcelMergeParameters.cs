@@ -1,6 +1,6 @@
 ﻿using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace AutocentreKorytoBusinessLogics.HelperModels
+namespace AutocentreKorytoClientBusinessLogics.HelperModels
 {
     class ExcelMergeParameters
     {

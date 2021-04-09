@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutocentreKorytoBusinessLogics.HelperModels
+namespace AutocentreKorytoClientBusinessLogics.HelperModels
 {
     class WordParagraph
     {

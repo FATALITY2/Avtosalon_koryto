@@ -1,10 +1,10 @@
-﻿using AutocentreKorytoBusinessLogics.HelperModels;
+﻿using AutocentreKorytoClientBusinessLogics.HelperModels;
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
 using System.Collections.Generic;
 
-namespace AutocentreKorytoBusinessLogics.BusinessLogics
+namespace AutocentreKorytoClientBusinessLogics.BusinessLogics
 {
     static class SaveToWord
     {

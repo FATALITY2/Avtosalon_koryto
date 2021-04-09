@@ -1,5 +1,5 @@
 ﻿
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     partial class FormMain
     {
@@ -46,7 +46,7 @@ namespace AutocentreKorytoView
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::AutocentreKorytoClient.Properties.Resources.корыто;
+            this.pictureBox1.Image = global::AutocentreKorytoClientView.Properties.Resources.корыто;
             this.pictureBox1.Location = new System.Drawing.Point(12, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(723, 367);

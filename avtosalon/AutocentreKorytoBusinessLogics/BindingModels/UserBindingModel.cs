@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using AutocentreKorytoBusinessLogics.Enums;
+using AutocentreKorytoClientBusinessLogics.Enums;
 using System.Runtime.Serialization;
 
 
-namespace AutocentreKorytoBusinessLogics.BindingModels
+namespace AutocentreKorytoClientBusinessLogics.BindingModels
 {
     [DataContract]
     public class UserBindingModel

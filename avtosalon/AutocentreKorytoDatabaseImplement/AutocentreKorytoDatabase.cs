@@ -1,7 +1,7 @@
-﻿using AutocentreKorytoDatabaseImplement.Models;
+﻿using AutocentreKorytoClientDatabaseImplement.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoDatabaseImplement
+namespace AutocentreKorytoClientDatabaseImplement
 {
     class AutocentreKorytoDatabase : DbContext
     {

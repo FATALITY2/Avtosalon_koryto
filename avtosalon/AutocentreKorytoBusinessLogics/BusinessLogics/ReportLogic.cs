@@ -1,13 +1,13 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.HelperModels;
-using AutocentreKorytoBusinessLogics.Interfaces;
-using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.HelperModels;
+using AutocentreKorytoClientBusinessLogics.Interfaces;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System;
 using System.Collections.Generic;
-using AutocentreKorytoBusinessLogics.Enums;
+using AutocentreKorytoClientBusinessLogics.Enums;
 using System.Linq;
 
-namespace AutocentreKorytoBusinessLogics.BusinessLogics
+namespace AutocentreKorytoClientBusinessLogics.BusinessLogics
 {
     public class ReportLogic
     {

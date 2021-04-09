@@ -1,13 +1,13 @@
-﻿using AutocentreKorytoBusinessLogics.BusinessLogics;
-using AutocentreKorytoBusinessLogics.Interfaces;
-using AutocentreKorytoBusinessLogics.ViewModels;
-using AutocentreKorytoDatabaseImplement.Implements;
+﻿using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.Interfaces;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
+using AutocentreKorytoClientDatabaseImplement.Implements;
 using System;
 using System.Windows.Forms;
 using Unity;
 using Unity.Lifetime;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     static class Program
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     partial class FormCar
     {
@@ -29,22 +29,22 @@ namespace AutocentreKorytoView
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBoxMaterial = new System.Windows.Forms.TextBox();
+            this.textBoxEquipment = new System.Windows.Forms.TextBox();
             this.textBoxPrice = new System.Windows.Forms.TextBox();
             this.labelPrice = new System.Windows.Forms.Label();
-            this.labelMaterial = new System.Windows.Forms.Label();
+            this.labelEquipment = new System.Windows.Forms.Label();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonSave = new System.Windows.Forms.Button();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBoxMaterial
+            // textBoxEquipment
             // 
-            this.textBoxMaterial.Location = new System.Drawing.Point(90, 40);
-            this.textBoxMaterial.Name = "textBoxMaterial";
-            this.textBoxMaterial.Size = new System.Drawing.Size(171, 20);
-            this.textBoxMaterial.TabIndex = 17;
+            this.textBoxEquipment.Location = new System.Drawing.Point(90, 40);
+            this.textBoxEquipment.Name = "textBoxEquipment";
+            this.textBoxEquipment.Size = new System.Drawing.Size(171, 20);
+            this.textBoxEquipment.TabIndex = 17;
             // 
             // textBoxPrice
             // 
@@ -62,14 +62,14 @@ namespace AutocentreKorytoView
             this.labelPrice.TabIndex = 15;
             this.labelPrice.Text = "Цена:";
             // 
-            // labelMaterial
+            // labelEquipment
             // 
-            this.labelMaterial.AutoSize = true;
-            this.labelMaterial.Location = new System.Drawing.Point(12, 43);
-            this.labelMaterial.Name = "labelMaterial";
-            this.labelMaterial.Size = new System.Drawing.Size(60, 13);
-            this.labelMaterial.TabIndex = 14;
-            this.labelMaterial.Text = "Материал:";
+            this.labelEquipment.AutoSize = true;
+            this.labelEquipment.Location = new System.Drawing.Point(12, 43);
+            this.labelEquipment.Name = "labelEquipment";
+            this.labelEquipment.Size = new System.Drawing.Size(60, 13);
+            this.labelEquipment.TabIndex = 14;
+            this.labelEquipment.Text = "Материал:";
             // 
             // buttonCancel
             // 
@@ -112,10 +112,10 @@ namespace AutocentreKorytoView
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(302, 151);
-            this.Controls.Add(this.textBoxMaterial);
+            this.Controls.Add(this.textBoxEquipment);
             this.Controls.Add(this.textBoxPrice);
             this.Controls.Add(this.labelPrice);
-            this.Controls.Add(this.labelMaterial);
+            this.Controls.Add(this.labelEquipment);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.textBoxName);
@@ -130,10 +130,10 @@ namespace AutocentreKorytoView
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBoxMaterial;
+        private System.Windows.Forms.TextBox textBoxEquipment;
         private System.Windows.Forms.TextBox textBoxPrice;
         private System.Windows.Forms.Label labelPrice;
-        private System.Windows.Forms.Label labelMaterial;
+        private System.Windows.Forms.Label labelEquipment;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.TextBox textBoxName;

@@ -1,13 +1,13 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.BusinessLogics;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
 using System;
-using AutocentreKorytoBusinessLogics.ViewModels;
-using AutocentreKorytoBusinessLogics.Enums;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
+using AutocentreKorytoClientBusinessLogics.Enums;
 using System.Windows.Forms;
 using Unity;
 using System.Collections.Generic;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormMain : Form
     {

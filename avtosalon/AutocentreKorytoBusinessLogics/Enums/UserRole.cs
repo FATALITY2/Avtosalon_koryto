@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutocentreKorytoBusinessLogics.Enums
+namespace AutocentreKorytoClientBusinessLogics.Enums
 {
     public enum UserRole
     {

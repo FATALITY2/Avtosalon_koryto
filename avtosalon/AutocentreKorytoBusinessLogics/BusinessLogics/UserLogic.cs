@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.Interfaces;
-using AutocentreKorytoBusinessLogics.ViewModels;
+using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.Interfaces;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 
-namespace AutocentreKorytoBusinessLogics.BusinessLogics
+namespace AutocentreKorytoClientBusinessLogics.BusinessLogics
 {
     public class UserLogic
     {

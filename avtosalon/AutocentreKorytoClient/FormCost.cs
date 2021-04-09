@@ -1,12 +1,12 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.BusinessLogics;
-using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System;
 using System.Windows.Forms;
 using Unity;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormCost : Form
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.Serialization;
-using AutocentreKorytoBusinessLogics.Enums;
+using AutocentreKorytoClientBusinessLogics.Enums;
 
-namespace AutocentreKorytoBusinessLogics.ViewModels
+namespace AutocentreKorytoClientBusinessLogics.ViewModels
 {
     [DataContract]
     public class UserViewModel

@@ -1,10 +1,10 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.BusinessLogics;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
 using System;
 using System.Windows.Forms;
 using Unity;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormPurchasesList : Form
     {

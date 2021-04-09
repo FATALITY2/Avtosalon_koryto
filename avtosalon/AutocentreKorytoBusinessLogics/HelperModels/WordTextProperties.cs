@@ -1,6 +1,6 @@
 ﻿using DocumentFormat.OpenXml.Wordprocessing;
 
-namespace AutocentreKorytoBusinessLogics.HelperModels
+namespace AutocentreKorytoClientBusinessLogics.HelperModels
 {
     class WordTextProperties
     {

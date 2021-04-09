@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace AutocentreKorytoBusinessLogics.ViewModels
+namespace AutocentreKorytoClientBusinessLogics.ViewModels
 {
     [DataContract]
     public class CostViewModel

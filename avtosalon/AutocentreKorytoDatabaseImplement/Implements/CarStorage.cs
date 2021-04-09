@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.Interfaces;
-using AutocentreKorytoBusinessLogics.ViewModels;
-using AutocentreKorytoDatabaseImplement.Models;
+using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.Interfaces;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
+using AutocentreKorytoClientDatabaseImplement.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoDatabaseImplement.Implements
+namespace AutocentreKorytoClientDatabaseImplement.Implements
 {
     public class CarStorage : ICarStorage
     {
@@ -22,7 +22,7 @@ namespace AutocentreKorytoDatabaseImplement.Implements
                     UserId = rec.UserId,
                     CostId = rec.CostsId,
                     CarName = rec.CarName,
-                    Material = rec.Material,
+                    Equipment = rec.Equipment,
                     CarPrice = rec.CarPrice,
                     DateOfCreation = rec.DateOfCreation
                 })
@@ -47,7 +47,7 @@ namespace AutocentreKorytoDatabaseImplement.Implements
                     UserId = rec.UserId,
                     CostId = rec.CostsId,
                     CarName = rec.CarName,
-                    Material = rec.Material,
+                    Equipment = rec.Equipment,
                     CarPrice = rec.CarPrice,
                     DateOfCreation = rec.DateOfCreation
                 })
@@ -73,7 +73,7 @@ namespace AutocentreKorytoDatabaseImplement.Implements
                     UserId = car.UserId,
                     CostId = car.CostsId,
                     CarName = car.CarName,
-                    Material = car.Material,
+                    Equipment = car.Equipment,
                     CarPrice = car.CarPrice,
                     DateOfCreation = car.DateOfCreation
                 } :
@@ -126,7 +126,7 @@ namespace AutocentreKorytoDatabaseImplement.Implements
             car.UserId = model.UserId;
             car.CostsId = model.CostsId;
             car.CarName = model.CarName;
-            car.Material = model.Material;
+            car.Equipment = model.Equipment;
             car.CarPrice = model.CarPrice;
             car.DateOfCreation = model.DateOfCreation;
             return car;

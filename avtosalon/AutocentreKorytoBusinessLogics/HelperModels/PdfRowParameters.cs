@@ -2,7 +2,7 @@
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 
-namespace AutocentreKorytoBusinessLogics.HelperModels
+namespace AutocentreKorytoClientBusinessLogics.HelperModels
 {
     class PdfRowParameters
     {

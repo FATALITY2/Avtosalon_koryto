@@ -1,7 +1,7 @@
-﻿using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System.Collections.Generic;
 
-namespace AutocentreKorytoBusinessLogics.HelperModels
+namespace AutocentreKorytoClientBusinessLogics.HelperModels
 {
     class WordInfo
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.Interfaces;
-using AutocentreKorytoBusinessLogics.ViewModels;
-using AutocentreKorytoDatabaseImplement.Models;
+using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.Interfaces;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
+using AutocentreKorytoClientDatabaseImplement.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoDatabaseImplement.Implements
+namespace AutocentreKorytoClientDatabaseImplement.Implements
 {
     public class PaymentStorage : IPaymentStorage
     {

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,8 +10,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Unity;
+using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoClient
+namespace AutocentreKorytoClientView
 {
     public partial class FormPayment : Form
     {

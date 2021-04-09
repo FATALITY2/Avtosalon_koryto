@@ -1,12 +1,12 @@
-﻿using AutocentreKorytoBusinessLogics.BindingModels;
-using AutocentreKorytoBusinessLogics.BusinessLogics;
-using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.BindingModels;
+using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System;
 using System.Windows.Forms;
 using Unity;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormCar : Form
     {
@@ -35,7 +35,7 @@ namespace AutocentreKorytoView
                     if (view != null)
                     {
                         textBoxName.Text = view.CarName;
-                        textBoxMaterial.Text = view.Material;
+                        textBoxEquipment.Text = view.Equipment;
                         textBoxPrice.Text = view.CarPrice.ToString();
                     }
                 }
@@ -53,7 +53,7 @@ namespace AutocentreKorytoView
                 MessageBox.Show("Заполните название", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (string.IsNullOrEmpty(textBoxMaterial.Text))
+            if (string.IsNullOrEmpty(textBoxEquipment.Text))
             {
                 MessageBox.Show("Заполните материал", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -72,7 +72,7 @@ namespace AutocentreKorytoView
                         Id = id,
                         UserId = view.UserId,
                         CarName = textBoxName.Text,
-                        Material = textBoxMaterial.Text,
+                        Equipment = textBoxEquipment.Text,
                         CarPrice = Convert.ToDecimal(textBoxPrice.Text),
                         DateOfCreation = view.DateOfCreation
                     });
@@ -84,7 +84,7 @@ namespace AutocentreKorytoView
                         Id = id,
                         UserId = Program.User.Id,
                         CarName = textBoxName.Text,
-                        Material = textBoxMaterial.Text,
+                        Equipment = textBoxEquipment.Text,
                         CarPrice = Convert.ToDecimal(textBoxPrice.Text),
                         DateOfCreation = DateTime.Now,
                     });

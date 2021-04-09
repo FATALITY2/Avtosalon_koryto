@@ -1,12 +1,12 @@
-﻿using AutocentreKorytoBusinessLogics.BusinessLogics;
-using AutocentreKorytoBusinessLogics.ViewModels;
+﻿using AutocentreKorytoClientBusinessLogics.BusinessLogics;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using Unity;
 using System.Linq;
 
-namespace AutocentreKorytoView
+namespace AutocentreKorytoClientView
 {
     public partial class FormPurchaseCar : Form
     {

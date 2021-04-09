@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AutocentreKorytoDatabaseImplement.Models
+namespace AutocentreKorytoClientDatabaseImplement.Models
 {
     public class Cost
     {

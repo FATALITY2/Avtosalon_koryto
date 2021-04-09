@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using AutocentreKorytoBusinessLogics.ViewModels;
+using AutocentreKorytoClientBusinessLogics.ViewModels;
 
-namespace AutocentreKorytoBusinessLogics.HelperModels
+namespace AutocentreKorytoClientBusinessLogics.HelperModels
 {
     class PdfInfo
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using AutocentreKorytoBusinessLogics.Enums;
+using AutocentreKorytoClientBusinessLogics.Enums;
 
-namespace AutocentreKorytoDatabaseImplement.Models
+namespace AutocentreKorytoClientDatabaseImplement.Models
 {
     public class User
     {

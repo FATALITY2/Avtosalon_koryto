@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AutocentreKorytoClient.Properties {
+namespace AutocentreKorytoClientView.Properties {
     using System;
     
     
