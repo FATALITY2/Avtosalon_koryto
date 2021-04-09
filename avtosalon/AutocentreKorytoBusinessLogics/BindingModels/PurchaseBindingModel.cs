@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Runtime.Serialization;
 
 namespace AutocentreKorytoBusinessLogics.BindingModels
 {
@@ -35,6 +36,6 @@ namespace AutocentreKorytoBusinessLogics.BindingModels
         public DateTime? DateTo { get; set; }
 
         [DataMember]
-        public Dictionary<int, (string, int, decimal)> PurchaseCars { get; set; }
+        public Dictionary<int, (string, int, decimal)> PurchaseFurnitures { get; set; }
     }
 }

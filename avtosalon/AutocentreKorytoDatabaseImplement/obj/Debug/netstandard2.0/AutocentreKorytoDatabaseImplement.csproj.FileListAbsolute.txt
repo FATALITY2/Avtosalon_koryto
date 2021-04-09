@@ -2,3 +2,4 @@ d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseI
 d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.csprojAssemblyReference.cache
 d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.AssemblyInfoInputs.cache
 d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.AssemblyInfo.cs
+d:\Users\Хозяин\Desktop\moya kyrsovaya\avtosalon\AutocentreKorytoDatabaseImplement\obj\Debug\netstandard2.0\AutocentreKorytoDatabaseImplement.csproj.CoreCompileInputs.cache

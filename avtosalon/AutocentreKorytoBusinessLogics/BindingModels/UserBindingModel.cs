@@ -1,6 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using AutocentreKorytoBusinessLogics.Enums;
+using System.Runtime.Serialization;
+
 
 namespace AutocentreKorytoBusinessLogics.BindingModels
 {
