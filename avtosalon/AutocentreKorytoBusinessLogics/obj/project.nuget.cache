@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Xs0tPAmObtw0gFbMp4mOHKFb8TZlhNdd1tj4I3VGCcPYPw5wTFs/fLHytdVawGMJl2x/j+uFAyDGwb3TC+I5Q==",
+  "success": true,
+  "projectFilePath": "d:\\Users\\Хозяин\\Desktop\\moya kyrsovaya\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Хозяин\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Хозяин\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

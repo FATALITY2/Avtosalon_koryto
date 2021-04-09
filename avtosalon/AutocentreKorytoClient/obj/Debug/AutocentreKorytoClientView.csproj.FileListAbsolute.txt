@@ -1,0 +1,10 @@
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.csprojAssemblyReference.cache
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.FormEnter.resources
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormMain.resources
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.Properties.Resources.resources
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.csproj.GenerateResource.cache
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClientView.csproj.CoreCompileInputs.cache
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.Client.resources
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.CRUDAvto.resources
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormPay.resources
+C:\Users\Хозяин\source\repos\AutocentreKorytoClient\AutocentreKorytoClient\obj\Debug\AutocentreKorytoClient.FormRegistration.resources
