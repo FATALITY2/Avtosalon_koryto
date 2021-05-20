@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\Хозяин\\Desktop\\moya kyrsovaya\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\Avtosalon_koryto\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj": {}
   },
   "projects": {
-    "d:\\Users\\Хозяин\\Desktop\\moya kyrsovaya\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\Avtosalon_koryto\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\Хозяин\\Desktop\\moya kyrsovaya\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Avtosalon_koryto\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj",
         "projectName": "AutocentreKorytoBusinessLogics",
-        "projectPath": "d:\\Users\\Хозяин\\Desktop\\moya kyrsovaya\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\Хозяин\\Desktop\\moya kyrsovaya\\avtosalon\\AutocentreKorytoBusinessLogics\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\Avtosalon_koryto\\avtosalon\\AutocentreKorytoBusinessLogics\\AutocentreKorytoBusinessLogics.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\Avtosalon_koryto\\avtosalon\\AutocentreKorytoBusinessLogics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -38,13 +37,20 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "PDFsharp-MigraDoc": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
             }
           },
           "imports": [
@@ -57,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
         }
       }
     }

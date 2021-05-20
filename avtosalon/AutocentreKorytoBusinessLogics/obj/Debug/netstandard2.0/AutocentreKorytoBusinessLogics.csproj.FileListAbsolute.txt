@@ -1,0 +1,5 @@
+C:\Users\Admin\source\repos\Avtosalon_koryto\avtosalon\AutocentreKorytoBusinessLogics\bin\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.deps.json
+C:\Users\Admin\source\repos\Avtosalon_koryto\avtosalon\AutocentreKorytoBusinessLogics\bin\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.dll
+C:\Users\Admin\source\repos\Avtosalon_koryto\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Avtosalon_koryto\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Avtosalon_koryto\avtosalon\AutocentreKorytoBusinessLogics\obj\Debug\netstandard2.0\AutocentreKorytoBusinessLogics.AssemblyInfo.cs
